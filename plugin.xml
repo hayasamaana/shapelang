@@ -14,4 +14,27 @@
             genModel="shapelanguage.genmodel"/>
    </extension>
 
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated SimpleUML -->
+      <package
+            uri="http://SimpleClass.net"
+            class="SimpleClass.SimpleClassPackage"
+            genModel="SimpleUML.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated SimpleUML -->
+      <package
+            uri="http://PrimitiveTypes.net"
+            class="PrimitiveTypes.PrimitiveTypesPackage"
+            genModel="SimpleUML.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated SimpleRDBMS -->
+      <package
+            uri="http://SimpleRDBMS.net"
+            class="SimpleRDBMS.SimpleRDBMSPackage"
+            genModel="SimpleRDBMS.genmodel"/>
+   </extension>
 </plugin>
