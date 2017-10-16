@@ -37,4 +37,20 @@
             class="SimpleRDBMS.SimpleRDBMSPackage"
             genModel="SimpleRDBMS.genmodel"/>
    </extension>
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Families -->
+      <package
+            uri="http://families.com"
+            class="families.FamiliesPackage"
+            genModel="Families.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Persons -->
+      <package
+            uri="http://persons.com"
+            class="persons.PersonsPackage"
+            genModel="Persons.genmodel"/>
+   </extension>
+
 </plugin>
